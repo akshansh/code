@@ -1,0 +1,79 @@
+html {
+	min-height: 100%;
+	font-family: 'Nunito', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+nav {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: transparent;
+	color: white;
+	padding: 0 1rem;
+	font-size: 1.6rem;
+	height: 80px;
+	line-height: 80px;
+	transition: .5s all ease;
+}
+
+nav.active {
+	background: white;
+	color: #111;
+}
+
+nav > p {
+    font-size: 1rem;
+}
+
+
+
+/* Making the image scrollbar  */
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+/* 
+.mySlides {
+    display: none;
+} */
+
+
+
+
+header {
+	height: 60vh;
+		background: linear-gradient(to bottom right,#c31432, #240b36);
+}
+
+#begin {
+	height: 120vh;
+	padding: 60px 0;
+	text-align: center;
+	color: #fff;
+    background: #111;
+    position: relative
+}
