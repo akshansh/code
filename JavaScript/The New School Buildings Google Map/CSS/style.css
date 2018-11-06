@@ -1,0 +1,27 @@
+/* Adjusting the title bar of the page */
+h1 {
+  padding-left: 10px;
+  margin: 0 0 0 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+  background-color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+
+/* Adjusting the map */
+/* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+  #map {
+  height: 100%;
+}
+/* Making the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  /* padding: 0; */
+}
+

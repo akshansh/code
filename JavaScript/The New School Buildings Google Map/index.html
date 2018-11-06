@@ -1,0 +1,45 @@
+<!-- Using Google Maps API and implementing it in p5 -->
+<!-- Reference: https://developers.google.com/maps/documentation/javascript/tutorial -->
+<!-- Video Reference: https://youtu.be/Zxf1mnP5zcw -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New School Map | JavaScript</title>
+
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Linking the jQuery file -->
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+              crossorigin="anonymous"></script>
+              
+    <!-- Linking p5 CDN files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+
+    <!-- Linking with Google Maps API -->
+    <!-- My API Key: AIzaSyBafJ5r_ww59jzjs1GzNwDgv5c8891kU_0 -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBafJ5r_ww59jzjs1GzNwDgv5c8891kU_0&callback=initMap"
+    async defer></script>
+
+    <!-- Linking my JS file -->
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    
+    <h1>The New School Maps</h1>
+
+    <div id="map"></div>
+
+
+</body>
+</html>
