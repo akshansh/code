@@ -1,0 +1,89 @@
+/* NAVIGATION | Flexbox Styling */
+
+.using_flexbox_for_header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+}
+
+.using_flexbox_for_header div {
+    flex: 1 1 50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+#logo_separation {
+    padding-right: 50%;
+}
+
+
+/* BODY | Grid Styling */
+
+.using_grids_for_banner {
+    display: grid;
+    /* grid-template-rows: repeat(1, 1fr 1fr 1fr); */
+    /* Repeat 1 row with different widths: first row is 4 times, 2nd is one time, and third is 2 times the relative size */
+    width: 100%;
+}
+
+.using_grids_for_banner>div {
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    padding: 0;
+    text-align: center;
+}
+
+.using_grids_for_banner img {
+    width: 100%;
+}
+
+#description {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(243, 243, 243)
+}
+
+
+/* CONTENT | Grid Styling */
+
+.using_grids_for_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.using_grids_for_content>div {
+    border-style: solid;
+    border-color: magenta;
+    border-width: 1px;
+    padding: 1em;
+    text-align: justify;
+}
+
+.using_grids_for_content>div>p {
+    padding-right: 20%;
+}
+
+.using_grids_for_content img {
+    width: 100%;
+}
+
+
+/* FOOTER | Flexbox Styling */
+
+.using_flexbox_for_footer {
+    width: 100%;
+    background: gray;
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
